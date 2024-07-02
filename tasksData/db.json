@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "body": "study for the exam",
+      "type": "Education",
+      "isDone": "not done",
+      "notes": "etc etc etc......",
+      "id": "2"
+    },
+    {
+      "body": "work meeting",
+      "type": "Work",
+      "isDone": "not done",
+      "notes": "etc etc etc......",
+      "id": "3"
+    },
+    {
+      "id": "ee94",
+      "body": "go to the gym",
+      "type": "Sport",
+      "notes": "etc etc etc......"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+    
+  }
+  body {
+    background: linear-gradient(to bottom,
+    #0000 0%,
+    #0000 10%,
+    #0000 25%,
+    #0000 30%,
+    #0000 35%,
+    #0000 40%,
+    #0000 45%,
+    #0000 50%,
+    #0000 55%,
+    #0000 60%,
+    #0000 65%,
+    #0000 70%,
+    #0000 75%,
+    #0000 80%,
+    #000b 100%), url("/img/wall2.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+  }
+  .navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(27, 139, 213);
+  }
+  .navbar h1 {
+    color: rgb(27, 139, 213);
+  }
+  .navbar .links {
+    margin-left: auto;
+  }
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  .navbar a:hover {
+    color: rgb(27, 139, 213);
+  }
+
+  .content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  /* tasks previews / list */
+.task-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+}
+.task-preview:hover {
+  box-shadow: 2px 6px 10px rgba(0,0,0,0.1);
+}
+.task-preview h2 {
+  font-size: 20px;
+  color: rgb(27, 139, 213);
+  margin-bottom: 8px;
+}
+.task-preview a {
+  text-decoration: none;
+}
+.task-preview .check {
+  margin-left: 90%;
+}
+
+/* create new task form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: rgb(27, 139, 213);
+  margin-bottom: 30px;
+}
+.create input, .create textarea  ,.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(27, 139, 213);
+  box-sizing: border-box;
+  display: block;
+  background: transparent;
+  outline: none;
+}
+.create button {
+  background: rgb(27, 139, 213);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/*task details page */
+.task-details h1 {
+  font-size: 20px;
+  color:  rgb(27, 139, 213);
+  margin-bottom: 10px;
+}
+.task-details div {
+  margin: 20px 0;
+}
+.task-details p {
+  border-bottom: 1px solid rgb(27, 139, 213);
+  padding-bottom: 10px;
+}
+.task-details button {
+  background: rgb(27, 139, 213);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* sort-tasks page */
+.sort-tasks select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(27, 139, 213);
+  box-sizing: border-box;
+  display: block;
+  background: transparent;
+  outline: none;
+}
+.sort-tasks button {
+  background: rgb(27, 139, 213);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+ /* sorted tasks list / list */
+.sorted-task-list {
+  padding: 10px 16px;
+  margin: 20px 0;
+}
+.sorted-task-list:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.sorted-task-list h1 {
+  font-size: 20px;
+  color: rgb(27, 139, 213);
+  margin-bottom: 8px;
+}
+.sorted-task-list a {
+  text-decoration: none;
+}
+.sorted-task-list .check {
+  margin-left: 90%;
+}
